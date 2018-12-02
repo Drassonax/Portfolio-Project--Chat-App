@@ -1,4 +1,4 @@
-const url = 'http://localhost:3000'
+const url = window.location.hostname
 
 fetch(`${url}/roomList`)
     .then((response) => response.json())
