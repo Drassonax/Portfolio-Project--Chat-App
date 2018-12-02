@@ -1,4 +1,4 @@
-const url = 'https://hv-chat-app.herokuapp.com/'
+const url = 'https://hv-chat-app.herokuapp.com'
 
 fetch(`${url}/roomList`)
     .then((response) => response.json())
